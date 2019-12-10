@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Keep Fit Companion</title>
+    <style type="text/css">
+
+        img {
+            display: block;
+            margin: auto auto;
+            width: 50%;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-light bg-light navbar-expand-lg sticky-top">
+    <button class="btn btn-dark" data-toggle="modal" data-target="#myModal"> Login <span class="glyphicon glyphicon-user"></span></button>
+
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"><span class="navbar-toggler-icon"></span></button>
+
+    <div class="collapse navbar-collapse"  id="navbarCollapse">
+    <ul class="navbar-nav ml-auto">
+            <li class="navbar-item">
+                <a class="nav-link">Homepage</a>
+            </li>
+            <li class="navbar-item">
+                <a class="nav-link" href="#workout-container">Workouts</a>
+            </li>
+            <li class="navbar-item">
+                <a class="nav-link" href="#exercise-container">Exercises</a>
+            </li>
+            <li class="navbar-item">
+                <a class="nav-link" href="#diet-container">Diet</a>
+            </li>
+            <li class="navbar-item">
+                <a class="nav-link" href="#goals-container">Goals</a>
+            </li>
+            <li class="navbar-item">
+                <a class="nav-link" href="#diary-container">Diary</a>
+            </li>
+
+    </ul>
+    </div>
+
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-6 text-center bg-primary">
+            <h1>Workouts</h1>
+            <kbd>Search full <code>Workout</code> plans</kbd>
+            <img src="./img/dumbbell-with-weights-outline.png" class="img-responsive" alt="running-icon">
+
+        </div>
+        <div class="col-sm-12 col-md-6 text-center bg-success">
+            <h1>Exercises</h1>
+            <kbd>Search individual exercises</kbd>
+            <img src="./img/running.png" class="img-responsive" alt="running-icon">
+
+
+        </div>
+        <div class="col-sm-12 col-md-6 text-center bg-info">
+            <h1>Diet</h1>
+            <kbd>Get <code>Diet</code> Tips</kbd>
+            <img src="./img/dish.png" class="img-responsive" alt="dinner plate icon">
+
+        </div>
+        <div class="col-sm-12 col-md-6 text-center bg-warning">
+            <h1>Goals</h1>
+            <kbd>Set goals</kbd>
+            <img style="display: block; margin: auto auto; width: 50%; margin-top: 5px" src="./img/quality.png" class="img-responsive" alt="dinner plate icon">
+
+        </div>
+        <div class="col-sm-12 col-md-12 text-center bg-danger">
+            <h1>Diary PH</h1>
+            <kbd>Record workouts, goal milestones and diet</kbd>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="container table-responsive bg-success mt-5 border border-dark rounded" id="exercise-container">
+
+    <h1 class="text-center"><kbd>Exercises</kbd></h1>
+
+    <div class="row">
+        <div class="col-12">
+            <span class="badge badge-pill badge-info">Football</span>
+            <span class="badge badge-pill badge-info">Cardio</span>
+            <span class="badge badge-pill badge-info">Strength</span>
+            <span class="badge badge-pill badge-info">5-Star</span>
+        </div>
+
+    </div>
+
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr><td>Name</td><td>Type(Cardio, strength)</td><td>Body part</td><td>Image</td><td>Rating</td><td>Tags</td><td>Add to workout</td></tr>
+        </thead>
+
+        <tbody>
+            <tr><td>Step Up</td><td class="success">Strength</td><td>Legs</td><td>Image</td><td>*****</td><td><span class="badge badge-pill badge-info">Football</span></td><td><button class="btn-primary">Add</button></td></tr>
+            <tr><td>Medicine Ball Pushup</td><td>Strength</td><td>Chest, Core</td><td>Image</td><td>*****</td><td><span class="badge badge-pill badge-info">Football</span></td><td><button class="btn-primary">Add</button></td></tr>
+            <tr><td>Single-Leg Squat</td><td>Strength</td><td>Legs, Core</td><td>Image</td><td>*****</td><td><span class="badge badge-pill badge-info">Football</span></td><td><button class="btn-primary">Add</button></td></tr>
+            <tr><td>Dumbbell Bench Step-Ups</td><td>Strength</td><td>Legs, Core</td><td>Image</td><td>*****</td><td><span class="badge badge-pill badge-info">Football</span></td><td><button class="btn-primary">Add</button></td></tr>
+            <tr><td>HITT on treadmill</td><td>Cardio</td><td>Legs</td><td>Image</td><td>*****</td><td><span class="badge badge-pill badge-info">Football</span></td><td><button class="btn-primary">Add</button></td></tr>
+            <tr><td>Burpee Pull-Ups</td><td>Strength</td><td>Chest, back, legs</td><td>Image</td><td>*****</td><td><span class="badge badge-pill badge-info">Football</span></td><td><button class="btn-primary">Add</button></td></tr>
+            <tr><td>Burpee Pull-Ups</td><td>Stretch</td><td>Chest, back, legs</td><td>Image</td><td>*****</td><td><span class="badge badge-pill badge-info">Stretch</span></td><td><button class="btn-primary">Add</button></td></tr>
+            <tr><td>Lateral Band Walks</td><td>Strength</td><td>legs</td><td>Image</td><td>*****</td><td><span class="badge badge-pill badge-info">Football</span></td><td><button class="btn-primary">Add</button></td></tr>
+
+
+        </tbody>
+
+    </table>
+
+    <ul class="pagination pagination-sm">
+        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">4</a></li>
+        <li class="page-item"><a class="page-link" href="#">5</a></li>
+    </ul>
+
+</div>
+
+
+<div class="container bg-primary mt-5 border border-dark rounded" id="workout-container">
+
+        <h1 class="text-center"><kbd>Workouts</kbd></h1>
+    <h2>Select Workout:</h2>
+
+    <div class="row jumbotron ml-1 mr-1">
+        <div class="col-3">
+
+            <div class="card">
+                <img class="card-img-top" src="./img/running.png" style="width: 60%">
+                <div class="card-body">
+                    <h5 class="card-title">Workout1</h5>
+                    <p class="card-text"> Workout 1 description, full body strength workout</p>
+                    <button class="btn btn-primary">Start Workout</button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-3">
+            <div class="card">
+                <img class="card-img-top" src="./img/running.png" style="width: 60%">
+                <div class="card-body">
+                    <h5 class="card-title">Workout2</h5>
+                    <p class="card-text"> Workout 2 description, football workout</p>
+                    <button class="btn btn-primary">Start Workout</button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-3"> Workout3</div><div class="col-3"> Workout4</div>
+    </div>
+
+    <h2>Current Workout:</h2>
+
+    <div class="container">
+        <div class="row">
+            <div class="progress col-12" style="padding: 0px">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%; background-color: red">
+                    70%
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                Exercise Previous
+
+            </div>
+            <div class="col-4">
+                Exercise Current
+                <div class="embed-responsive embed-responsive-16by9 m-2">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0">
+                    </iframe>
+
+                </div>
+                <button class="btn btn-primary">Next</button>
+                <button class="btn btn-primary">Previous</button>
+                <button class="btn btn-success">Complete</button>
+                <button class="btn btn-info">Info</button>
+
+            </div>
+            <div class="col-4">
+                Exercise Next
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="container bg-warning mt-5 border border-dark rounded" id="goals-container">
+    <h1 class="text-center"><kbd>Goals</kbd></h1>
+    <ul>
+        <li>Time</li>
+        <li>Distance</li>
+        <li>Date</li>
+        <li>Weight</li>
+        <li>Reps</li>
+    </ul>
+</div>
+
+<div class="container bg-info mt-5 border border-dark rounded" id="diet-container">
+    <h1 class="text-center"><kbd>Diet</kbd></h1>
+    <ul>
+        <li>Time</li>
+        <li>Distance</li>
+        <li>Date</li>
+        <li>Weight</li>
+        <li>Reps</li>
+    </ul>
+</div>
+
+<div class="container bg-danger mt-5 border border-dark rounded" id="diary-container">
+    <h1 class="text-center"><kbd>Diary</kbd></h1>
+        Login to display workout diary
+</div>
+
+
+
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content p-2">
+            <div class="modal-header">
+                <h5 class="modal-title">User Login</h5>
+            </div>
+
+            <form>
+                <div class="form-group">
+                    <label for="emailInput"> Email Address:</label>
+                    <input type="email" class="form-control" id="emailInput" placeholder="Enter email">
+                </div>
+
+                <div class="form-group">
+                    <label for="passInput"> Password:</label>
+                    <input type="password" class="form-control" id="passInput" placeholder="Password">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+
+        </div>
+    </div>
+</div>
+
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
